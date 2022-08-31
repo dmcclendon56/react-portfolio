@@ -26,7 +26,7 @@ function About() {
           
         </div>
       </div>
-
+ 
 
 
     </section>
@@ -34,3 +34,5 @@ function About() {
 }
 
 export default About
+
+
