@@ -2,29 +2,49 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/aboutme2.jpeg'
 import {FaAward} from 'react-icons/fa'
+import {FiUsers} from 'react-icons/fi'
+import {GrProjects} from 'react-icons/gr'
 
-function About() {
+
+const About = () => {
   return (
     <section id='about'>
       <h5> Get to Know</h5>
       <h2>About Me</h2>
 
-      <div className='container about_container'>
-        <div className='about_me'> 
-        <div className='about_me-image'>
-          <img src={ME} alt='About Image' />
+      <div className='container about__container'>
+        <div className='about__me'> 
+          <div className='about__me-image'>
+            <img src={ME} alt='About Image' />
         </div>
+        </div>
+
         
-        </div>
-        <div className='about_content'>
-          <div className="about_cards">
-            <article className='about_card'>
+        <div className='about__content'>
+          <div className="about__cards">
+            <article className='about__card'>
+              <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>1+ Years of Experience</small>
+              <small>1 Years of Experience</small>
+            </article>
+
+            <article className='about__card'>
+              <FiUsers className='about__icon'/>
+              <h5>Clients</h5>
+              <small>1</small>
+            </article>
+
+            <article className='about__card'>
+              <GrProjects className='about__icon'/>
+              <h5>Projects</h5>
+              <small>4+ completed</small>
             </article>
           </div>
           
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores consequuntur error iste, fuga minus, asperiores recusandae provident repellendus dolorum corrupti, possimus aliquam tempore nam molestiae eum aut non rerum qui.</p>
+          <a href='#conact' className='btn btn-primary'>Let's Talk</a>
         </div>
+
       </div>
  
 
