@@ -5,21 +5,23 @@ import {HiOutlineMail} from 'react-icons/hi'
 
 const Contact = () => {
   return (
-    <section id='contact'>
-      <h5>Get in Touch</h5>
+  
+  <section id='contact' >
+    <h5>Get in Touch</h5>
       <h2>Contact Me</h2>
-
-      <div className='container contact__container'>
-        <div className='contact__options'>
-          <article className='contact__option'>
-            {/* <TfiEmail/> */}
+        <div className='container contact__container'>
+          <div className='contact__options'>
+            <article className='contact__option'>
+          
             <HiOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>mcclendon.darrian@gmail.com</h5>
             <a href='mailto:mcclendon.darrian@gmail.com' target="_blank">Send a message</a>
           </article>
         </div>
-        {/* ?end of contact options */}
+
+
+    {/* ?end of contact options */}
         <form action=''>
           <input type='text' name='name' placeholder='Your Full Name' required/>
           <input type='email' name='email' placeholder='Your Email' required/>

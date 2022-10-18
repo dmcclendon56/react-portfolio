@@ -1,11 +1,12 @@
 .container.contact__container {
-    width: 58%;
+    width: 50%;
     display: grid;
-    grid-template-columns: 30% 50%;
+    grid-template-columns: 50% 50%;
     gap: 12%;
+    /* padding-top: 50%; */
 }
 
-.contact__options {
+ .contact__options {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
@@ -18,9 +19,9 @@
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
-}
+} 
 
-.contact__option:hover {
+ .contact__option:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
 }
@@ -35,7 +36,7 @@
     display: inline-block;
     font-size: 0.8rem;
 
-}
+} 
 
 /* FORM */
 
@@ -52,25 +53,26 @@ input, textarea{
     border-radius: 0.5rem;
     background: transparent;
     border: 2px solid var(--color-primary-variant);
-    resize: none;
+    /* resize: none; */
     color: var(--color-white);
-}
+} 
 
 /* media queries(tablets) */
 
-@media screen and (max-width: 1024px) {
+ @media screen and (max-width: 1024px) {
    .container.contact__container{
-       grid-template-columns: 1fr;
+       grid-template-columns: 2fr;
        gap: 2rem;
    }
     
-}
+} 
 
 /* Media Queries phones/small devices */
 
-@media screen and (max-width: 600px) {
+ @media screen and (max-width: 600px) {
     .container.contact__container {
+        /* need to change this/play with template(grid-temp) */
         width: var(--container-width-sm);
     }
     
-}
+} 

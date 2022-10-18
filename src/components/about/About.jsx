@@ -41,7 +41,10 @@ const About = () => {
             </article>
           </div>
           
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores consequuntur error iste, fuga minus, asperiores recusandae provident repellendus dolorum corrupti, possimus aliquam tempore nam molestiae eum aut non rerum qui.</p>
+          <p>Howdy!
+          My name is D'Arrian McClendon & I am bootcamp grad!
+          I have worked as a nanny and adminstrative assitant for years.   
+          </p>
           <a href='#conact' className='btn btn-primary'>Let's Talk</a>
         </div>
 
