@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/dmcclendon56/react-portfolio/static/css/main.19caa1f1.css",
+    "main.js": "/dmcclendon56/react-portfolio/static/js/main.1a62adc0.js",
+    "static/media/portfolio3.jpg": "/dmcclendon56/react-portfolio/static/media/portfolio3.a99c0732c842f4124ebe.jpg",
+    "static/media/portfolio1.jpg": "/dmcclendon56/react-portfolio/static/media/portfolio1.50e58ddc72763b9b0ecf.jpg",
+    "static/media/portfolio2.jpg": "/dmcclendon56/react-portfolio/static/media/portfolio2.b3ab831783b2f7b43f9a.jpg",
+    "static/media/portfolio4.jpg": "/dmcclendon56/react-portfolio/static/media/portfolio4.d779ea798fd46a24b9b0.jpg",
+    "static/media/metwo2.png": "/dmcclendon56/react-portfolio/static/media/metwo2.d8356afc6d4d25511eb5.png",
+    "static/media/aboutme2.jpeg": "/dmcclendon56/react-portfolio/static/media/aboutme2.2b7db4455667ef0d2256.jpeg",
+    "static/media/cv.pdf": "/dmcclendon56/react-portfolio/static/media/cv.9eab658bd4084c411f5c.pdf",
+    "static/media/black-felt.png": "/dmcclendon56/react-portfolio/static/media/black-felt.1c6ed4e3e55954cf8702.png",
+    "index.html": "/dmcclendon56/react-portfolio/index.html",
+    "main.19caa1f1.css.map": "/dmcclendon56/react-portfolio/static/css/main.19caa1f1.css.map",
+    "main.1a62adc0.js.map": "/dmcclendon56/react-portfolio/static/js/main.1a62adc0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19caa1f1.css",
+    "static/js/main.1a62adc0.js"
+  ]
+}
