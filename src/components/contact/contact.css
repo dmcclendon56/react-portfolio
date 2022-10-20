@@ -1,7 +1,7 @@
 .container.contact__container {
-    width: 50%;
+    width: 58%;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 30% 58%;
     gap: 12%;
     /* padding-top: 50%; */
 }
@@ -31,10 +31,11 @@
     margin-bottom: 0.5rem;
 }
 
-.contact__option a{
+.contact__option a {
     margin-top: 0.7rem;
-    display: inline-block;
+    /* display: flex; */
     font-size: 0.8rem;
+    display:none;
 
 } 
 
